@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    width: 6%;
+    max-width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    background-color: black;
+}
+
+.logo{
+    /* height: 60px; */
+    width: 45%;
+    max-width: 5rem;
+    border-radius: 50%;
+}
+
+.menu{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.item>svg{
+    fill: whitesmoke;
+    width: 3rem;
+}
